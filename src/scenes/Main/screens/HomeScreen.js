@@ -11,7 +11,6 @@ import { WebBrowser } from 'expo';
 
 // Components
 import { MonoText } from '../../../shared/components/StyledText';
-import UserSelectList from '../components/UserSelectList';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -32,9 +31,6 @@ export default class HomeScreen extends React.Component {
           <View style={styles.getStartedContainer}>
             {this._maybeRenderDevelopmentModeWarning()}
           </View>
-
-          <UserSelectList>
-          </UserSelectList>
         </ScrollView>
 
         <View style={styles.tabBarInfoContainer}>

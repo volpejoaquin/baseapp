@@ -58,6 +58,6 @@ export default createBottomTabNavigator(
     ProfileStack,
   },
   {
-    // initialRouteName: 'ProfileStack' // TODO: Revert this
+    initialRouteName: 'SearchStack' // TODO: Revert this
   }
 );
